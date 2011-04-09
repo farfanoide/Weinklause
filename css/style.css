@@ -90,7 +90,8 @@ display: inline;
 /*=header*/
 
 #headerWrap {
-   background: url(../img/slideBg.png) repeat;
+   /*background: url(../img/slideBg.png) repeat;*/
+	background: url(../img/header-bg.jpg) repeat-x ;
 	height: 147px;
 	border-bottom: 1px solid gray;
 }
