@@ -35,6 +35,7 @@
       <div id="headerWrap">      
          <header class="container_16">
             <h1 class="grid_6 alpha"><a href="http://localhost/weinklause">Weinklause</a></h1>
+            <div id="navWrap" class="grid_10">
             <nav>
                <ul>         
                   <li><a class="selected" href="#">Home</a></li>
@@ -50,6 +51,7 @@
                   <li><a href="main/">Blog</a></li>
                </ul>        
             </nav>
+            </div> <!-- end #nav -->
          </header><!-- end header-->
       </div>  <!-- end headerWrap-->
       <div id="mainContentWraper">
@@ -83,14 +85,16 @@
          <div class="container_16" id="mainContent">
                <div id="content" class="grid_11 alpha">
                   <article>
-                     <a class="single_image" href="img/img-art-1-full.jpg" title="Oberstdorf-Germany"><img src="img/img-art-1.jpg" alt="Oberstdorf-Germany"/></a>
+<!--                     <a class="single_image" href="img/img-art-1-full.jpg" title="Oberstdorf-Germany"><img src="img/img-art-1.jpg" alt="Oberstdorf-Germany"/></a>-->
+                     <img src="img/img-art-1.jpg" alt="Oberstdorf-Germany"/>
                      <h2><a href="#">Some Post goes here.</a></h2>
                      <h6>Posted on <a href="#">Someday 3,2012</a> by Weinklause</h6>
                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra ultricies lobortis. Nunc id diam a nunc consequat commodo et ut diam. Donec enim lectus, egestas id ultricies ac, tristique sit amet quam. Aliquam erat volutpat.</p>
                   </article>
                   
                   <article>
-                     <a class="single_image" href="img/img-art-2-full.jpg" title="Schrofenhause"><img src="img/img-art-2.jpg" alt="Schrofenhause"/></a>
+<!--                     <a class="single_image" href="img/img-art-2-full.jpg" title="Schrofenhause"><img src="img/img-art-2.jpg" alt="Schrofenhause"/></a>-->
+                     <img src="img/img-art-2.jpg" alt="Schrofenhause"/>
                      <h2><a href="#">Some Post goes here.</a></h2>
                      <h6>Posted on <a href="#">Someday 3,2012</a> by Weinklause</h6>
                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra ultricies lobortis. Nunc id diam a nunc consequat commodo et ut diam. Donec enim lectus, egestas id ultricies ac, tristique sit amet quam. Aliquam erat volutpat.</p>
@@ -148,11 +152,11 @@
             });
 </script>
 <script type="text/javascript">
-   $("a.single_image").fancybox({
-				'overlayShow'	: true,
-				'transitionIn'	: 'elastic',
-				'transitionOut'	: 'elastic'
-			});
+      //   $("a.single_image").fancybox({
+	   //	      'overlayShow'	: true,
+		//		   'transitionIn'	: 'elastic',
+		//	      'transitionOut'	: 'elastic'
+		//	   });
 	$("a[rel=imageSlide]").fancybox({
 				'transitionIn'		: 'elastic',
 				'transitionOut'		: 'elastic',
