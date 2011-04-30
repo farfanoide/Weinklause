@@ -14,44 +14,23 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{1206, 886}</string>
+		<string>{1680, 941}</string>
 		<key>ProjectURL</key>
 		<string>file://localhost/Users/farfan/Dropbox/Sites/weinklause/weinklause.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{1, 1028}</string>
+		<string>{0, 1028}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
 	<key>com.macrabbit.Espresso.FileManager.FileControllerState</key>
 	<dict>
 		<key>ExpandedURLs</key>
-		<array>
-			<string>file://localhost/Users/farfan/Dropbox/Sites/weinklause/css</string>
-			<string>file://localhost/Users/farfan/Dropbox/Sites/weinklause/img</string>
-		</array>
+		<array/>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
 	<false/>
-	<key>com.macrabbit.Espresso.Workspace.Tabs</key>
-	<dict>
-		<key>Tabs</key>
-		<array>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/farfan/Dropbox/Sites/weinklause/index.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/farfan/Dropbox/Sites/weinklause/css/style.css</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-		</array>
-	</dict>
 	<key>com.macrabbit.Espresso.WorkspaceTabs.DisclosureCollapsed</key>
 	<false/>
 </dict>

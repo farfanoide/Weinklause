@@ -34,10 +34,10 @@ h2 {
 
 /* =slidedeck stuff */
 #slidedeck_frame {
-	width: 908px;
+	width: 916px;
 	height: 290px;
-	overflow: hidden;
-	clear: both;
+	clear: both;	margin: auto;
+	padding: 20px 0px;
 } 
 #slidedeck_frame h2 {
    color: gray;
@@ -72,6 +72,13 @@ border: 3px solid #f7f2ec;
 float: left;
 margin: 70px 5px 0px;
 opacity: 0.6;
+-webkit-transition: all 0.2s ease-in-out;
+-webkit-transform: scale(1);
+-moz-transition: all 0.2s ease-in-out;
+-moz-transform: scale(1);
+transition: all 0.2s ease-in-out;
+transform: scale(1);
+
 }
 dl.slidedeck img:hover {
 opacity: 1;
@@ -201,7 +208,7 @@ nav {
    margin: 0;
    margin-right: 20px;
    padding: 0;
-   border: 1px solid #292929;
+   border: 1px solid black /*#292929*/;
    margin-top: 57px;
 	-moz-border-radius: 3px;  
  	-webkit-border-radius: 3px;  
@@ -284,10 +291,10 @@ box-shadow: inset 0px 0px 15px 2px black;
 aside {
    float: right;
     background: #e3ddd5;
-    min-height: 415px;
-   -webkit-box-shadow: 0px -2px 5px 1px #2f2f2f ;
-   -moz-box-shadow: 0px -2px 5px 1px #2f2f2f ;
-   -o-box-shadow: 0px -2px 5px 1px #2f2f2f ;
+    min-height: 420px;
+   -webkit-box-shadow: 0px -2px 5px 1px rgba(0,0,0,0.3) ;
+   -moz-box-shadow: 0px -2px 5px 1px rgba(0,0,0,0.3) ;
+   -o-box-shadow: 0px -2px 5px 1px rgba(0,0,0,0.3) ;
    box-shadow: 0px -2px 5px 1px rgba(0, 0, 0, 0.3) ;
     padding-bottom: 3px;
    -moz-border-radius: 5px;  
@@ -296,12 +303,12 @@ aside {
 	border-radius: 5px;
 	text-shadow: 0px 1px 0px white;
 	font-size: 18px;
-   background: -moz-linear-gradient(top, #E3DDD5 70%, #F7F2EC 100%); /* firefox */
-   background: -webkit-gradient(linear, left top, left bottom, color-stop(70%,#E3DDD5), color-stop(100%,#F7F2EC)); /* webkit */
+   background: -moz-linear-gradient(top, #E3DDD5 30%, #F7F2EC 100%); /* firefox */
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#E3DDD5), color-stop(100%,#F7F2EC)); /* webkit */
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E3DDD5', endColorstr='#F7F2EC',GradientType=0 ); /* ie */
 }
 aside p { 
-	padding: 15px;
+	padding: 15px 15px 0px;
 }
 input#search {
    width: 190px;

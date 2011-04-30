@@ -1,4 +1,7 @@
-/* @override http://localhost/weinklause/css/slidedeck.skin.css */
+/* @override 
+	http://localhost/weinklause/css/slidedeck.skin.css
+	http://localhost/weinklause/css/slidedeck.skin.ivan.css
+*/
 
 /*
 Skin Name: SlideDeck Website Skin
@@ -18,7 +21,7 @@ Tags: flexible, white, black, multi-color
  */
 .skin-slidedeck {
     position: relative;
-	padding: 11px 4px 24px;
+
   /*  background: url('../img/slidedeck/back.png') 0 0 #d7d7d7;
     border: 14px solid #fff;
     -moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);

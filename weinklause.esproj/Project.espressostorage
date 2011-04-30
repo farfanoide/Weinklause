@@ -25,7 +25,7 @@
 				<string>FSFTPAutomaticTransferMode</string>
 			</dict>
 			<key>ESPublishServerStatePathKey</key>
-			<string>/htdocs/weinklause</string>
+			<string>/htdocs/weinklause/</string>
 			<key>ESPublishServerStatePortKey</key>
 			<integer>21</integer>
 			<key>ESPublishServerStateSavedMergeOperationMasksKey</key>
