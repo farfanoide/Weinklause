@@ -14,7 +14,7 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{1680, 886}</string>
+		<string>{1680, 873}</string>
 		<key>ProjectURL</key>
 		<string>file://localhost/Users/farfan/Dropbox/Sites/weinklause/weinklause.esproj/</string>
 		<key>StateType</key>
@@ -29,6 +29,7 @@
 		<key>ExpandedURLs</key>
 		<array>
 			<string>file://localhost/Users/farfan/Dropbox/Sites/weinklause/css</string>
+			<string>file://localhost/Users/farfan/Dropbox/Sites/weinklause/img</string>
 		</array>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
@@ -40,6 +41,12 @@
 			<dict>
 				<key>DocumentURL</key>
 				<string>file://localhost/Users/farfan/Dropbox/Sites/weinklause/css/style.css</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/farfan/Dropbox/Sites/weinklause/buchung.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
