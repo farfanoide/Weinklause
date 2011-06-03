@@ -32,13 +32,29 @@
 			<dict>
 				<key>ftp://ftp1358504@02f429d.netsolhost.com:21</key>
 				<dict>
+					<key>/htdocs/weinklause/.git</key>
+					<integer>3221225472</integer>
+					<key>/htdocs/weinklause/build</key>
+					<integer>1073741824</integer>
 					<key>/htdocs/weinklause/fonts</key>
 					<integer>1073741824</integer>
+					<key>/htdocs/weinklause/img/.DS_Store</key>
+					<integer>1073741824</integer>
+					<key>/htdocs/weinklause/img/OberstdorfPics</key>
+					<integer>3221225472</integer>
+					<key>/htdocs/weinklause/img/fancybox/fancy_close_ivan.png</key>
+					<integer>1073741824</integer>
 					<key>/htdocs/weinklause/img/slidedeck/spines.psd</key>
+					<integer>1073741824</integer>
+					<key>/htdocs/weinklause/intermediate</key>
 					<integer>1073741824</integer>
 					<key>/htdocs/weinklause/main</key>
 					<integer>1073741824</integer>
 					<key>/htdocs/weinklause/psd</key>
+					<integer>1073741824</integer>
+					<key>/htdocs/weinklause/test</key>
+					<integer>1073741824</integer>
+					<key>/htdocs/weinklause/weinklause.esproj</key>
 					<integer>1073741824</integer>
 				</dict>
 			</dict>

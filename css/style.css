@@ -197,6 +197,9 @@ h2 {
 }
 
 /* =slidedeck stuff */
+#slidedeck{
+	margin-bottom: 30px;
+}
 #slidedeck_frame {
 	width: 916px;
 	height: 290px;
@@ -264,7 +267,7 @@ display: inline;
 
 #headerWrap {
    background: #6e2614;
-   background: url(../img/bg-wood.jpeg) repeat-x;
+   background: url(../img/bg-wood.jpg) repeat-x;
 	height: 147px;
 	border-bottom: 1px solid gray;	margin-bottom: 30px;
 }
@@ -442,7 +445,7 @@ aside {
    float: right;
     background: #e3ddd5; /*old browsers*/
     min-height: 390px;
-   -webkit-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4);   -moz-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4);   -o-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4);   box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4);   behavior: url(PIE.htc);    padding-bottom: 3px;
+   -webkit-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4) inset;   -moz-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4) inset ;   -o-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4) inset;   box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4) inset ;   behavior: url(PIE.htc);    padding-bottom: 3px;
    -moz-border-radius: 5px;  
  	-webkit-border-radius: 5px;  
 	-o-border-radius: 5px;
@@ -453,7 +456,7 @@ aside {
    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#E3DDD5), color-stop(100%,#F7F2EC)); /* webkit *!/
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E3DDD5', endColorstr='#F7F2EC',GradientType=0 ); /* ie *!/*/
 }
-aside p { 
+	aside p { 
 	padding: 15px 15px 0px;
 }
 input#search {
@@ -461,6 +464,7 @@ input#search {
 	font-size: 14px;
 	background: #f7f2ec url(../img/search.png) top right no-repeat;
 	line-height: 22px;  
+	margin-bottom: 15px;
 }
 aside ul a {
    padding: 15px;
@@ -494,7 +498,7 @@ aside ul li:hover{
 	border-top: 1px solid transparent;
    -webkit-box-shadow: inset 0px 0px 10px 2px gray;
    -moz-box-shadow: inset 0px 0px 3px gray;   
-   box-shadow: inset 0px 0px 8px 1px gray;   
+   box-shadow: inset 0px 0px 8px 1px gray;   
    -webkit-transition: all 0.1s ease-in-out;
    -moz-transition: all 0.1s ease-in-out;
    -o-transition: all 0.1s ease-in-out;
@@ -506,21 +510,58 @@ aside ul li:hover{
    padding-top: 10px;
    clear: both;
   	font-family: 'Nunito';
-  	font-size: 14px;  	background: #6e2614;  	background: url(../img/bg-wood-foot.jpg);
-}footer ul{   	list-style: none;}
+  	font-size: 14px;  	background: #6e2614;  	background: url(../img/bg-wood-foot.jpg) bottom left  repeat-x;
+  	overflow: hidden;
+  	color: white;
+}footer ul{}
 footer p {
 	-moz-border-radius: 3px;  
  	-webkit-border-radius: 3px;  
 	-o-border-radius: 3px;
 	border-radius: 3px;
     background: rgba(47,47,47,.3);
-	padding:3px 0px 3px 15px; 
+	padding:3px; 
 	border: 1px solid rgba(0,0,0,0.3);  
-	text-shadow: 0px 1px 1px black ;	margin: 2px 10px;
+	text-shadow: 0px 1px 1px black ;	margin: 5px 10px;
+	clear: left;
 }
 footer a {
    	color: #f7f2ec;
    	text-decoration: none;
+   	clear: both;
+}
+footer #copyright {
+	float: left;
+}
+footer #farfan{
+	float: right;
+}
+
+/*form*/
+footer textarea {
+	width: 100%;
+	float: right;
+	border: 1px solid rgba(0,0,0,0.3);  
+	-moz-border-radius: 3px;  
+	-webkit-border-radius: 3px;  
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	background: rgba(47,47,47,.3);
+
+	
+}
+input{
+	width: 100%;
+	border: 1px solid rgba(0,0,0,0.3);  
+	-moz-border-radius: 3px;  
+	-webkit-border-radius: 3px;  
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	background: rgba(47,47,47,.3);
+	
+}
+footer input {
+	clear: both;
 }
 /*buchung */#slidedeck {   overflow: hidden;}
 .buchung #content{   background: white;}
@@ -554,8 +595,27 @@ footer a {
       -webkit-border-radius: 8px;
       border-radius: 8px;
   }
+  
+  button{
+  	background:##e3ddd5 ;
+  }
 /*social*/
-#social {   margin-top: 30px;}#social li, #social a{   list-style: none;   padding: 0px;   margin:0px;   float: left;}#social a {   display: block;   margin: 0px 3px;   height: 16px;    width: 16px;   -moz-border-radius: 2px;  	-webkit-border-radius: 2px;     -o-border-radius: 2px;   border-radius: 2px;   -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.3) ;   -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.3) ;   box-shadow: 0px 0px 20px rgba(255,255,255,0.3) ;   -webkit-transition: all 0.2s linear;   opacity: 0.5;}#social a:hover {   opacity: 1;   -webkit-box-shadow: 0px 0px 15px rgba(255,255,255,0.8) ;   -moz-box-shadow: 0px 0px 15px rgba(255,255,255,0.8) ;   box-shadow: 0px 0px 15px rgba(255,255,255,0.8) ;}#rss             {background: url(../img/sprite.gif) 0px -18px no-repeat;}#rss:hover       {background: url(../img/sprite.gif) 0 0 no-repeat;}#facebook        {background: url(../img/sprite.gif) 0px -54px no-repeat;}#facebook:hover  {background: url(../img/sprite.gif) 0px -36px no-repeat;}#skype           {background: url(../img/sprite.gif) 0px -90px no-repeat;}#skype:hover     {background: url(../img/sprite.gif) 0px -72px no-repeat;}#flickr          {background: url(../img/sprite.gif) 0px -126px no-repeat;}#flickr:hover    {background: url(../img/sprite.gif) 0px -108px no-repeat;}#deviant         {background: url(../img/sprite.gif) 0px -162px no-repeat;}#deviant:hover   {background: url(../img/sprite.gif) 0px -144px no-repeat;}
+#social {
+
+}
+#social ul {
+	margin-top: 5px;
+	-moz-border-radius: 3px;  
+	-webkit-border-radius: 3px;  
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	background: rgba(47,47,47,.3);
+	padding:5px; 
+	border: 1px solid rgba(0,0,0,0.3);  
+	overflow: hidden;
+	width: 67px;
+}#social li{   list-style: none;   float: left;
+}#social a {   display: block;   margin: 0px 3px;   height: 16px;    width: 16px;   -moz-border-radius: 2px;  	-webkit-border-radius: 2px;     -o-border-radius: 2px;   border-radius: 2px;   -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.3) ;   -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.3) ;   box-shadow: 0px 0px 20px rgba(255,255,255,0.3) ;   -webkit-transition: all 0.2s linear;   opacity: 0.5;}#social a:hover {   opacity: 1;   -webkit-box-shadow: 0px 0px 15px rgba(255,255,255,0.8) ;   -moz-box-shadow: 0px 0px 15px rgba(255,255,255,0.8) ;   box-shadow: 0px 0px 15px rgba(255,255,255,0.8) ;}#rss             {background: url(../img/sprite.gif) 0px -18px no-repeat;}#rss:hover       {background: url(../img/sprite.gif) 0 0 no-repeat;}#facebook        {background: url(../img/sprite.gif) 0px -54px no-repeat;}#facebook:hover  {background: url(../img/sprite.gif) 0px -36px no-repeat;}#skype           {background: url(../img/sprite.gif) 0px -90px no-repeat;}#skype:hover     {background: url(../img/sprite.gif) 0px -72px no-repeat;}#flickr          {background: url(../img/sprite.gif) 0px -126px no-repeat;}#flickr:hover    {background: url(../img/sprite.gif) 0px -108px no-repeat;}#deviant         {background: url(../img/sprite.gif) 0px -162px no-repeat;}#deviant:hover   {background: url(../img/sprite.gif) 0px -144px no-repeat;}
 
 
 

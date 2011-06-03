@@ -21,6 +21,9 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
    <link rel="shortcut icon" href="img/favicon.ico">
    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	
+	<!-- google fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Nunito:regular,bold' rel='stylesheet' type='text/css'>
 
   <!-- CSS: implied media="all" -->
     <link rel="stylesheet" href="css/extras.css">
@@ -49,7 +52,7 @@
                      </ul>
                   </li>
                   <li><a href="buchung.html">Buchung</a></li>
-                  <li><a href="#">Kontakt</a></li>
+                  <li><a href="#kontakt">Kontakt</a></li>
                   <li><a href="main/">Blog</a></li>
                </ul>        
             </nav>
@@ -119,9 +122,23 @@
             </aside>
          </div> <!--end mainContent-->
       </div> <!--end mainContentWraper-->      <div id="footerWrap">
-      <footer class="container_16">         <section class="grid_5">            <ul>               <li>                  <a href="#">                     <p>Some Link - About Something</p>                  </a>               </li>               <li>                  <a href="#">                     <p>Some Link - About Something</p>                  </a>               </li>               <li>                  <a href="#">                     <p>Some Link - About Something</p>                  </a>               </li>            </ul>         </section>         <section class="grid_5">            <ul>               <li>                  <a href="#">                     <p>Some Link - About Something</p>                  </a>               </li>               <li>                  <a href="#">                     <p>Some Link - About Something</p>                  </a>               </li>               <li>                  <a href="#">                     <p>Some Link - About Something</p>                  </a>               </li>            </ul>         </section>         <section class="grid_6">					<form id="form" method="post" action="formulario.php">					E-mail: 	<input name="email" type="text" /><br />					Name:		<input name="name" type="text" /><br />										Nachricht:<textarea id="textarea" name="message"></textarea>					<input type="submit" name="Schicken" id="enviar" value="Schicken" />					<input type="reset" name="Abbrechen" id="cancelar" value="Abbrechen" />					</form>         </section>         <div id="social">             <ul>                <li>                   <a id="facebook" href="#"></a>                </li>                <li>                   <a id="rss" href="#"></a>                </li>                <li>                   <a href="skype:#" id="skype"></a>                </li>             </ul>         </div> <!--end social-->
-            <p class="grid_3 alpha" id="copyright"><a href="http://weinklause.de">Copyright (c) Weinklause</a></p>
-            <p class="grid_3 omega" id="farfan"><a href="http://farfanoide.com.ar">Design & Code by Farfan</a></p>
+      <footer class="container_16">         <section class="grid_5">            <ul>               <li>                  <a href="#">                     <p>Some Link - About Something</p>                  </a>               </li>               <li>                  <a href="#">                     <p>Some Link - About Something</p>                  </a>               </li>               <li>                  <a href="#">                     <p>Some Link - About Something</p>                  </a>               </li>            </ul>         </section>         <section class="grid_5">            <ul>               <li>                  <a href="#">                     <p>Some Link - About Something</p>                  </a>               </li>               <li>                  <a href="#">                     <p>Some Link - About Something</p>                  </a>               </li>               <li>                  <a href="#">                     <p>Some Link - About Something</p>                  </a>               </li>            </ul>         </section>         <section id="kontakt" class="grid_6">
+         			Kontakt:					<form id="form" method="post" action="formulario.php">					<input name="email" type="text" placeholder="Type your email" />					<input name="name" type="text" placeholder="Here goes your Name" />					<textarea id="textarea" name="message"        ></textarea>					<input type="submit" name="Schicken" id="enviar" value="Schicken" />					<input type="reset" name="Abbrechen" id="cancelar" value="Abbrechen" />					</form>
+					<div id="social">
+					    <ul>
+					       <li>
+					          <a id="facebook" href="#"></a>
+					       </li>
+					       <li>
+					          <a id="rss" href="#"></a>
+					       </li>
+					       <li>
+					          <a href="skype:#" id="skype"></a>
+					       </li>
+					    </ul>
+					</div> <!--end social-->
+					         </section>                     <p id="copyright"><a href="http://weinklause.de">Copyright (c) Weinklause</a>
+            <a href="http://farfanoide.com.ar">Design & Code by Farfan</a></p>
       </footer>      </div>
   
   <!-- JavaScript at the bottom for fast page loading -->
