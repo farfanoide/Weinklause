@@ -199,7 +199,8 @@ h2 {
 /* =slidedeck stuff */
 #slidedeck_frame {
 	height: 290px;	clear: both;
--webkit-box-shadow: 0px 0px 15px hsla(0, 0%, 18%, 0.4);-moz-box-shadow: 0px 0px 15px hsla(0, 0%, 18%, 0.4);-o-box-shadow: 0px 0px 15px hsla(0, 0%, 18%, 0.4);box-shadow: 0px 0px 15px hsla(0, 0%, 18%, 0.4);} 
+-webkit-box-shadow: 0px 0px 15px hsla(0, 0%, 18%, 0.4);-moz-box-shadow: 0px 0px 15px hsla(0, 0%, 18%, 0.4);-o-box-shadow: 0px 0px 15px hsla(0, 0%, 18%, 0.4);box-shadow: 0px 0px 15px hsla(0, 0%, 18%, 0.4);
+overflow: hidden ;} 
 #slidedeck_frame h2 {
    color: gray;
    text-shadow: 0px 1px 0px #CFCFCF;   
@@ -280,7 +281,11 @@ header h1 a {
 #mainContentWraper {
     clear: both;
     padding: 30px 10px;
-    overflow: hidden;}
+    overflow: hidden;
+	box-shadow: 0px -1px 10px rgba(0,0,0,0.5),0px -1px 10px rgba(0,0,0,0.5)inset;
+	-moz-box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 10px 10px rgba(0,0,0,0.5),0px -1px 10px rgba(0,0,0,0.5)inset;
+}
 /*=content*/
 #content{
 	overflow: hidden;
@@ -295,8 +300,8 @@ header h1 a {
    -moz-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4);
    -o-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4);
    box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4);
-   behavior: url(PIE.htc);   margin-top: 30px;
-   
+   behavior: url(PIE.htc);
+   margin:30px 0px;   
 }
 #content article {
    font-family: verdana, arial, sans-serif;
@@ -437,7 +442,7 @@ aside {
    float: right;
     background: #e3ddd5; /*old browsers*/
     min-height: 390px;
-   -webkit-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4) inset;   -moz-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4) inset ;   -o-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4) inset;   box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4) inset ;   behavior: url(PIE.htc);    padding-bottom: 3px;
+   -webkit-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4) ;   -moz-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4)  ;   -o-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4) ;   box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4)  ;   behavior: url(PIE.htc);    padding-bottom: 3px;
    -moz-border-radius: 5px;  
  	-webkit-border-radius: 5px;  
 	-o-border-radius: 5px;
@@ -528,7 +533,7 @@ footer #farfan{
 
 /*form*/
 footer textarea {
-	width: 100%;
+	width: 90%;
 	float: right;
 	border: 1px solid rgba(0,0,0,0.3);  
 	-moz-border-radius: 3px;  
@@ -540,14 +545,20 @@ footer textarea {
 	
 }
 input{
-	width: 100%;
+	width: 48%;
 	border: 1px solid rgba(0,0,0,0.3);  
 	-moz-border-radius: 3px;  
 	-webkit-border-radius: 3px;  
 	-o-border-radius: 3px;
 	border-radius: 3px;
 	background: rgba(47,47,47,.3);
+	margin: 5px auto;
 	
+}
+#enviar {
+	text-align: center;
+	width: 20%;
+	margin: auto;
 }
 footer input {
 	clear: both;

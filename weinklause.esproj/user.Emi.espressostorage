@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>ESProjectShowHiddenFilesKey</key>
-	<true/>
+	<false/>
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{700, 697}</string>
+		<string>{1280, 626}</string>
 		<key>ProjectURL</key>
 		<string>file://localhost/Users/Emi/Sites/weinklause/weinklause.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{0, 778}</string>
+		<string>{5, 778}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
 	<key>com.macrabbit.Espresso.FileManager.FileControllerState</key>
 	<dict>
 		<key>ExpandedURLs</key>
-		<array>
-			<string>file://localhost/Users/Emi/Sites/weinklause/css</string>
-		</array>
+		<array/>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
 	<false/>
@@ -30,12 +28,6 @@
 	<dict>
 		<key>Tabs</key>
 		<array>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/Emi/Sites/weinklause/index.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
 			<dict>
 				<key>DocumentURL</key>
 				<string>file://localhost/Users/Emi/Sites/weinklause/buchung.html</string>
@@ -47,6 +39,16 @@
 				<string>file://localhost/Users/Emi/Sites/weinklause/css/style.css</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/Emi/Sites/weinklause/index.html</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>StateType</key>
+				<string>PreviewTab</string>
 			</dict>
 		</array>
 	</dict>
