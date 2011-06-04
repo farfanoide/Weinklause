@@ -190,23 +190,16 @@ input,
 footer {
     font-family: 'Nunito';
 }
-
+a, li{   -webkit-transition: all 0.2s linear;}
 h2 {
    color: #2f2f2f;
    
-}
+}li {   list-style: none;}
 
 /* =slidedeck stuff */
-#slidedeck{
-	margin-bottom: 30px;
-}
 #slidedeck_frame {
-	width: 916px;
-	height: 290px;
-	clear: both;
-	margin: auto;
-	padding: 5px 0px;
-} 
+	height: 290px;	clear: both;
+-webkit-box-shadow: 0px 0px 15px hsla(0, 0%, 18%, 0.4);-moz-box-shadow: 0px 0px 15px hsla(0, 0%, 18%, 0.4);-o-box-shadow: 0px 0px 15px hsla(0, 0%, 18%, 0.4);box-shadow: 0px 0px 15px hsla(0, 0%, 18%, 0.4);} 
 #slidedeck_frame h2 {
    color: gray;
    text-shadow: 0px 1px 0px #CFCFCF;   
@@ -269,8 +262,7 @@ display: inline;
    background: #6e2614;
    background: url(../img/bg-wood.jpg) repeat-x;
 	height: 147px;
-	border-bottom: 1px solid gray;	margin-bottom: 30px;
-}
+	border-bottom: 1px solid gray;}
 
 header h1 {
     float: left;
@@ -287,7 +279,7 @@ header h1 a {
 /*=mainContent*/
 #mainContentWraper {
     clear: both;
-    padding-bottom: 10px;
+    padding: 30px 10px;
     overflow: hidden;}
 /*=content*/
 #content{
@@ -303,7 +295,7 @@ header h1 a {
    -moz-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4);
    -o-box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4);
    box-shadow: 0px 0px 3px 1px hsla(0, 0%, 18%, 0.4);
-   behavior: url(PIE.htc);
+   behavior: url(PIE.htc);   margin-top: 30px;
    
 }
 #content article {
@@ -452,10 +444,7 @@ aside {
 	border-radius: 5px;
 	text-shadow: 0px 1px 0px white;
 	font-size: 18px;
-/*   background: -moz-linear-gradient(top, #E3DDD5 30%, #F7F2EC 100%); /* firefox *!/
-   background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#E3DDD5), color-stop(100%,#F7F2EC)); /* webkit *!/
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E3DDD5', endColorstr='#F7F2EC',GradientType=0 ); /* ie *!/*/
-}
+   margin-top: 30px;}
 	aside p { 
 	padding: 15px 15px 0px;
 }
@@ -464,8 +453,8 @@ input#search {
 	font-size: 14px;
 	background: #f7f2ec url(../img/search.png) top right no-repeat;
 	line-height: 22px;  
-	margin-bottom: 15px;
-}
+	margin-bottom: 5px;
+}aside ul {   margin: 10px 0px;}
 aside ul a {
    padding: 15px;
 }
@@ -513,7 +502,7 @@ aside ul li:hover{
   	font-size: 14px;  	background: #6e2614;  	background: url(../img/bg-wood-foot.jpg) bottom left  repeat-x;
   	overflow: hidden;
   	color: white;
-}footer ul{}
+}zfooter ul{}
 footer p {
 	-moz-border-radius: 3px;  
  	-webkit-border-radius: 3px;  
@@ -563,7 +552,7 @@ input{
 footer input {
 	clear: both;
 }
-/*buchung */#slidedeck {   overflow: hidden;}
+/*buchung */
 .buchung #content{   background: white;}
 
 
@@ -597,7 +586,7 @@ footer input {
   }
   
   button{
-  	background:##e3ddd5 ;
+  	background:#e3ddd5 ;
   }
 /*social*/
 #social {
