@@ -448,8 +448,8 @@ aside {
 	-o-border-radius: 5px;
 	border-radius: 5px;
 	text-shadow: 0px 1px 0px white;
-	font-size: 18px;
-   margin-top: 30px;}
+	font-size: 16px;
+   margin-top: 30px;   border: 1px solid white;}
 	aside p { 
 	padding: 15px 15px 0px;
 }
@@ -468,7 +468,7 @@ aside ul a {
     list-style: inside;
     color: #2f2f2f;
     text-decoration:none;
-    text-shadow: 0px 1px 0px white;
+    text-shadow: 0px 1px 0px white; -webkit-transition: all 0.11s ease; -moz-transition: all 0.11s ease-in-out; -o-transition: all 0.11s ease-in-out; transition: all 0.11s ease-in-out; 
 }
 aside + ul {
           border-bottom: 1px solid #2f2f2f;
@@ -481,23 +481,13 @@ aside ul li {
 aside ul li:first-child {
    border-top: none;
 }
- aside ul li a:hover {
-    color: #f7f2ec;
-    	text-shadow: 0px 1px 0px #2f2f2f;
-}
-aside ul li:hover{
-  background: #e8e3dd;
-   background: hsla(0, 0%, 18%, 0.4);
+aside ul li:hover{    	   -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.3);}
+aside ul li:active{
    color: #f7f2ec;
 	border-top: 1px solid transparent;
-   -webkit-box-shadow: inset 0px 0px 10px 2px gray;
-   -moz-box-shadow: inset 0px 0px 3px gray;   
-   box-shadow: inset 0px 0px 8px 1px gray;   
-   -webkit-transition: all 0.1s ease-in-out;
-   -moz-transition: all 0.1s ease-in-out;
-   -o-transition: all 0.1s ease-in-out;
-   transition: all 0.1s ease-in-out;
-}
+   -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.3) inset;
+   -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.3) inset;
+   box-shadow: 0px 0px 5px rgba(0,0,0,0.3) inset;}
 
 /*=footer*/
 #footerWrap {   height: 150px;
@@ -506,7 +496,7 @@ aside ul li:hover{
   	font-family: 'Nunito';
   	font-size: 14px;  	background: #6e2614;  	background: url(../img/bg-wood-foot.jpg) bottom left  repeat-x;
   	overflow: hidden;
-  	color: white;
+  	color: #e3ddd5;
 }footer ul{}
 footer p {
 	-moz-border-radius: 3px;  
@@ -520,10 +510,9 @@ footer p {
 	clear: left;
 }
 footer a {
-   	color: #f7f2ec;
    	text-decoration: none;
    	clear: both;
-}
+      color: #e3ddd5;}
 
 
 /*form*/
@@ -534,9 +523,9 @@ footer textarea {
 	-o-border-radius: 3px;
 	border-radius: 3px;
 	background: rgba(47,47,47,0.3);
-}textarea, input, button, .button {   -webkit-transition: all 0.2s ease-in-out;   -moz-transition: all 0.2s ease-in-out;   -o-transition: all 0.2s ease-in-out;   transition: all 0.2s ease-in-out;}footer textarea:hover, footer input:hover{   cursor: pointer;   -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
+}textarea, input, button, .button {   -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.2) inset;   -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.2) inset;   -o-box-shadow: 0px 0px 5px rgba(0,0,0,0.2) inset;   box-shadow: 0px 0px 5px rgba(0,0,0,0.2) inset;   -webkit-transition: all 0.2s ease-in-out;   -moz-transition: all 0.2s ease-in-out;   -o-transition: all 0.2s ease-in-out;   transition: all 0.2s ease-in-out;}footer textarea:hover, footer input:hover{   cursor: pointer;   -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;
-   box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;}footer textarea:focus, footer input:focus{      color: white;      background: rgba(47,47,47,0.7);}footer textarea:focus{   height: 60px;}
+   box-shadow: 0px 0px 5px rgba(0,0,0,0.5) inset;}footer textarea:focus, footer input:focus{      color: white;      background: rgba(0, 0, 0, 0.5);}footer textarea:focus{   height: 60px;}
 input{
 	width: 48%;
 	border: 1px solid rgba(0,0,0,0.3);  
@@ -550,53 +539,19 @@ input{
 #enviar {
 	text-align: center;
 	width: 20%;
-	margin: auto;	float: left;	background: rgba(0, 0, 0, 0.6);	color: white;}#enviar:hover{   cursor: pointer;-webkit-box-shadow: 0px 0px 5px rgba(255,255,255,0.3) ;
--moz-box-shadow: 0px 0px 5px rgba(255,255,255,0.3) ;
-box-shadow: 0px 0px 5px rgba(255,255,255,0.3) ;}
+	margin: auto;	float: left;   color: #9e9a99;}#enviar:hover{   cursor: pointer;   -webkit-box-shadow: 0px 0px 5px rgba(255,255,255,0.3) ;
+   -moz-box-shadow: 0px 0px 5px rgba(255,255,255,0.3) ;
+   box-shadow: 0px 0px 5px rgba(255,255,255,0.3) ;	background: rgba(0, 0, 0, 0.6);	color: white;}
 footer input {
 	clear: both;
 }
 /*buchung */
-.buchung #content{   background: white;}
-
-
-  ::-webkit-scrollbar {
-      width: 8px;
-  }
-  
-  ::-webkit-scrollbar:horizontal {
-      display: none;
-  }
-          
-  ::-webkit-scrollbar-track {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      border-width: 21px 0;
-      margin-left: -50px;
-  }
-
-  ::-webkit-scrollbar-track:disabled {
-      display: none;
-  }
-
-  ::-webkit-scrollbar-thumb {
-      border-width: 19px 0;
-      min-height: 40px;
-      opacity: 0.6;
-      background:#666;
-      -moz-border-radius: 8px;
-      -webkit-border-radius: 8px;
-      border-radius: 8px;
-  }
-  
+.buchung #content{   background: white;   }
   button{
   	background:#e3ddd5 ;
   }
 /*social*/
-#social {
-
-}
-#social ul {
+#social ul {
 	margin-top: 5px;
 	-moz-border-radius: 3px;  
 	-webkit-border-radius: 3px;  
@@ -606,9 +561,12 @@ footer input {
 	padding:4px; 
 	border: 1px solid rgba(0,0,0,0.3);  
 	overflow: hidden;
-	width: 67px;	float: right;	margin-top: 0;	margin-right: 12px;
-}#social li{   list-style: none;   float: left;
-}#social a {   display: block;   margin: 0px 3px;   height: 16px;    width: 16px;   -moz-border-radius: 2px;  	-webkit-border-radius: 2px;     -o-border-radius: 2px;   border-radius: 2px;   -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.3) ;   -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.3) ;   box-shadow: 0px 0px 20px rgba(255,255,255,0.3) ;   -webkit-transition: all 0.2s linear;   opacity: 0.5;}#social a:hover {   opacity: 1;   -webkit-box-shadow: 0px 0px 15px rgba(255,255,255,0.8) ;   -moz-box-shadow: 0px 0px 15px rgba(255,255,255,0.8) ;   box-shadow: 0px 0px 15px rgba(255,255,255,0.8) ;}#rss             {background: url(../img/sprite.gif) 0px -18px no-repeat;}#rss:hover       {background: url(../img/sprite.gif) 0 0 no-repeat;}#facebook        {background: url(../img/sprite.gif) 0px -54px no-repeat;}#facebook:hover  {background: url(../img/sprite.gif) 0px -36px no-repeat;}#skype           {background: url(../img/sprite.gif) 0px -90px no-repeat;}#skype:hover     {background: url(../img/sprite.gif) 0px -72px no-repeat;}#flickr          {background: url(../img/sprite.gif) 0px -126px no-repeat;}#flickr:hover    {background: url(../img/sprite.gif) 0px -108px no-repeat;}#deviant         {background: url(../img/sprite.gif) 0px -162px no-repeat;}#deviant:hover   {background: url(../img/sprite.gif) 0px -144px no-repeat;}
+	width: 67px;	float: right;	margin-top: 0;	margin-right: 12px;   -webkit-transition:all 0.2s ease-in-out;
+   -moz-transition:all 0.2s ease-in-out;
+   -o-transition:all 0.2s ease-in-out;
+   transition:all 0.2s ease-in-out;
+}#social:hover ul{   background: rgba(0, 0, 0, 0.5);   }#social li{   list-style: none;   float: left;
+}#social a {   display: block;   margin: 0px 3px;   height: 16px;    width: 16px;   -moz-border-radius: 2px;  	-webkit-border-radius: 2px;     -o-border-radius: 2px;   border-radius: 2px;   -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.3) ;   -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.3) ;   box-shadow: 0px 0px 20px rgba(255,255,255,0.3) ;   -webkit-transition: all 0.2s linear;   -moz-transition: all 0.2s linear;   transition: all 0.2s linear;   opacity: 0.5;}#social a:hover {   opacity: 1;   -webkit-box-shadow: 0px 0px 15px rgba(255,255,255,0.8) ;   -moz-box-shadow: 0px 0px 15px rgba(255,255,255,0.8) ;   box-shadow: 0px 0px 15px rgba(255,255,255,0.8) ;}#rss             {background: url(../img/sprite.gif) 0px -18px no-repeat;}#rss:hover       {background: url(../img/sprite.gif) 0 0 no-repeat;}#facebook        {background: url(../img/sprite.gif) 0px -54px no-repeat;}#facebook:hover  {background: url(../img/sprite.gif) 0px -36px no-repeat;}#skype           {background: url(../img/sprite.gif) 0px -90px no-repeat;}#skype:hover     {background: url(../img/sprite.gif) 0px -72px no-repeat;}#flickr          {background: url(../img/sprite.gif) 0px -126px no-repeat;}#flickr:hover    {background: url(../img/sprite.gif) 0px -108px no-repeat;}#deviant         {background: url(../img/sprite.gif) 0px -162px no-repeat;}#deviant:hover   {background: url(../img/sprite.gif) 0px -144px no-repeat;}
 
 
 
@@ -655,7 +613,7 @@ footer input {
 @media only screen and (min-width: 768px) {
   /* Style adjustments for viewports 768px and over go here */
 
-}/*/mediaquery*/
+}/*/mediaquery*/@media (max-width: 768px) {  /* Style adjustments for viewports 768px and over go here */aside{   display: none;}}/*/mediaquery*/
 
 
 
