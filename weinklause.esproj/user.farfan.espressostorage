@@ -14,7 +14,7 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{1680, 908}</string>
+		<string>{1083, 908}</string>
 		<key>ProjectURL</key>
 		<string>file://localhost/Users/farfan/Dropbox/Sites/weinklause/weinklause.esproj/</string>
 		<key>StateType</key>
@@ -37,12 +37,6 @@
 	<dict>
 		<key>Tabs</key>
 		<array>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/farfan/Dropbox/Sites/weinklause/css/style.css</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
 			<dict>
 				<key>DocumentURL</key>
 				<string>file://localhost/Users/farfan/Dropbox/Sites/weinklause/buchung.html</string>
